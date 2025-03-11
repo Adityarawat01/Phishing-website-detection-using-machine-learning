@@ -82,7 +82,6 @@ def extract_features(url):
     # Check for suspicious TLDs (top-level domains)
     suspicious_tlds = ['.xyz', '.top', '.club', '.online']  # Add more suspicious TLDs
     features.append(1 if any(tld in domain for tld in suspicious_tlds) else 0)  # suspecious_tld
-    print(features)
     # Return the features as a numpy array (in the same format the model was trained on)
     return np.array(features).reshape(1, -1)
 
