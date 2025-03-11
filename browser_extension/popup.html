@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Classifier</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 300px;
+        padding: 20px;
+      }
+      input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+      }
+      button {
+        width: 100%;
+        padding: 8px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+      }
+      .result {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>URL Classifier</h2>
+    <input type="text" id="url" placeholder="Enter URL to classify" />
+    <button id="classifyButton">Classify URL</button>
+    <div class="result" id="result"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

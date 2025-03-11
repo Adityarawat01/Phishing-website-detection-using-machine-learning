@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "URL Classifier",
+  "description": "Classifies URLs as Phishing or Legitimate",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:5000/*",
+    "https://your-app-name.herokuapp.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
