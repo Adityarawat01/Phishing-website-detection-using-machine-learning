@@ -32,7 +32,7 @@ The URL Classifier Chrome extension allows users to classify URLs as Legitimate 
 
 Clone the repository:
 
-git clone repository-url
+git clone https://github.com/Adityarawat01/Phishing-website-detection-using-machine-learning.git
 
 This will clone all the folders and files to your device's current working directory
 
