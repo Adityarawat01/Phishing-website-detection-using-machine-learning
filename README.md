@@ -32,7 +32,7 @@ The URL Classifier Chrome extension allows users to classify URLs as Legitimate 
 
 Clone the repository:
 
-git clone <repository-url>
+git clone repository-url
 
 This will clone all the folders and files to your device's current working directory
 
@@ -45,6 +45,7 @@ This will clone all the folders and files to your device's current working direc
 - Start the Flask server:
 
   python app.py
+  
   This will run the Flask backend locally on http://127.0.0.1:5000.
 
 ## Setting Up the Chrome Extension
