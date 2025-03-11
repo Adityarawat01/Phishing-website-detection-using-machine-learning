@@ -10,14 +10,20 @@ The URL Classifier Chrome extension allows users to classify URLs as Legitimate 
 - Real-time Classification: Enter a URL and get immediate feedback within the browser popup.
 - Machine Learning Powered: The classification is powered by a trained Random Forest model.
 
-Technologies Used
-Frontend:
-HTML, CSS, and JavaScript for the extension popup.
-Fetch API for communicating with the backend.
-Backend:
-Flask (Python) to serve the classification model.
-Scikit-learn for building and training the Random Forest model.
-Joblib for saving and loading the trained model.
-Chrome Extension:
-Manifest V3 for Chrome extensions.
-Event listeners and background scripts for extension functionality.
+## Technologies Used 
+
+- Frontend:
+
+  - HTML, CSS, and JavaScript for the extension popup.
+  - Fetch API for communicating with the backend.
+
+- Backend:
+
+  - Flask (Python) to serve the classification model.
+  - Scikit-learn for building and training the Random Forest model.
+  - Joblib for saving and loading the trained model.
+ 
+- Chrome Extension:
+
+  - Manifest V3 for Chrome extensions.
+  - Event listeners and background scripts for extension functionality.
