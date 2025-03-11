@@ -40,7 +40,7 @@ This will clone all the folders and files to your device's current working direc
 
 - Install required Python libraries:
 
-  pip install -r requirements.txt
+  pip install -r libraries.txt
 
 - Start the Flask server:
 
