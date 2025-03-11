@@ -27,3 +27,6 @@ The URL Classifier Chrome extension allows users to classify URLs as Legitimate 
 
   - Manifest V3 for Chrome extensions.
   - Event listeners and background scripts for extension functionality.
+
+## Installation
+
