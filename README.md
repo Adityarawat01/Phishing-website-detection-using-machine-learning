@@ -1,12 +1,15 @@
 # Phishing-website-detection-using-machine-learning
-URL Classifier Chrome Extension
-Description
+
 The URL Classifier Chrome extension allows users to classify URLs as Legitimate or Phishing by analyzing various features of the URL. This extension communicates with a backend server built using Flask, which uses a pre-trained machine learning model to classify the URLs.
 
-Features
-Classify URLs: Classifies a URL as Phishing or Legitimate based on the URL's structure and characteristics.
-Real-time Classification: Enter a URL and get immediate feedback within the browser popup.
-Machine Learning Powered: The classification is powered by a trained Random Forest model.
+
+
+## Features
+
+- Classify URLs: Classifies a URL as Phishing or Legitimate based on the URL's structure and characteristics.
+- Real-time Classification: Enter a URL and get immediate feedback within the browser popup.
+- Machine Learning Powered: The classification is powered by a trained Random Forest model.
+
 Technologies Used
 Frontend:
 HTML, CSS, and JavaScript for the extension popup.
